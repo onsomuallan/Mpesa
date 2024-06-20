@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Mpesa from './pages/Home';
-import Status from './pages/status';
+import Status from './pages/Status';
 import Header from './components/Header';
 
 const App = () => {
