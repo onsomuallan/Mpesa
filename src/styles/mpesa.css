@@ -1,0 +1,77 @@
+/* mpesa.css */
+
+.mpesa-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.items-container {
+  flex: 1;
+  max-width: 400px;
+}
+
+.payment-details {
+  flex: 1;
+  max-width: 400px;
+  margin-left: 20px;
+}
+
+.item-card {
+  cursor: pointer;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+  border: 1px solid #ccc;
+}
+
+.item-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.item-card.selected {
+  border-color: #007ad9;
+}
+
+.item-amount {
+  margin-top: 0.5rem;
+  color: #666;
+}
+
+.payment-card {
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+}
+
+.payment-card .p-field {
+  margin-bottom: 1.5rem;
+}
+
+.payment-card label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.p-mt-2 {
+  margin-top: 1rem !important;
+}
+
+.toast-message {
+  font-size: 14px;
+}
+
+.toast-message.warn {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.toast-message.error {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.toast-message.success {
+  background-color: #28a745;
+  color: #fff;
+}

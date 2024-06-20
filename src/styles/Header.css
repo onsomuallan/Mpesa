@@ -1,0 +1,23 @@
+/* Header.css */
+
+.Header {
+    background-color: #1F3643;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .Header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Header nav ul li {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .Header nav ul li:hover {
+    text-decoration: underline;
+  }
+  
