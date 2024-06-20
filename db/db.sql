@@ -1,0 +1,7 @@
+CREATE TABLE Transactions (
+    TransactionID VARCHAR(255) NOT NULL PRIMARY KEY,
+    PhoneNumber VARCHAR(255) NOT NULL,
+    Amount DECIMAL(18, 2) NOT NULL,
+    Status VARCHAR(255) NOT NULL,
+    Timestamp DATETIME NOT NULL DEFAULT GETDATE()
+);
