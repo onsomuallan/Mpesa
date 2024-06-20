@@ -52,13 +52,5 @@
   "main": "index.js",
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/onsomuallan/Mpesa.git"
-  },
-  "bugs": {
-    "url": "https://github.com/onsomuallan/Mpesa/issues"
-  },
-  "homepage": "https://github.com/onsomuallan/Mpesa#readme"
+  "license": "ISC"
 }
