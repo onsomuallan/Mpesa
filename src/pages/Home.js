@@ -59,7 +59,7 @@ const Mpesa = () => {
       console.error(error);
       toast.current.show({ severity: 'error', summary: 'Error', detail: 'Payment request failed!' });
     } finally {
-      // Reset button to original state after processin
+      // Reset button to original state after processing
       setIsProcessing(false);
     }
   };
